@@ -19,5 +19,5 @@ jobs:
           model-api-key: ${{ secrets.AI_PR_GEN__MODEL_API_KEY__ANTHROPIC }}  # AI_PR_GEN__MODEL_API_KEY__OPENAI | AI_PR_GEN__MODEL_API_KEY__ANTHROPIC
           model-provider: 'anthropic'  # openai | anthropic
           model-name: 'claude-3.7 sonnet'      # gpt-4 | claude-3.5 sonnet | claude-3.7 sonnet
-          base-branch: 'main'      # optional
-          review-threshold: '0.8'   # optional
+          # base-branch: 'main'      # optional
+          # review-threshold: '0.8'   # optional
