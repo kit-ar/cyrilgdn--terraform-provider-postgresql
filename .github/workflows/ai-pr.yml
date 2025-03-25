@@ -16,8 +16,8 @@ jobs:
       - uses: AxioTree/ai-issue-resolver@v0.9.8
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          model-api-key: ${{ secrets.AI_PR_GEN__MODEL_API_KEY__ANTHROPIC }}  # AI_PR_GEN__MODEL_API_KEY__OPENAI | AI_PR_GEN__MODEL_API_KEY__ANTHROPIC
-          model-provider: 'anthropic'  # openai | anthropic
-          model-name: 'claude-3.7 sonnet'      # gpt-4 | claude-3.5 sonnet | claude-3.7 sonnet
+          model-api-key: ${{ secrets.AI_PR_GEN__MODEL_API_KEY__OPENAPI }}  # AI_PR_GEN__MODEL_API_KEY__OPENAI | AI_PR_GEN__MODEL_API_KEY__ANTHROPIC
+          model-provider: 'openai'  # openai | anthropic
+          model-name: 'gpt-4'      # gpt-4 | claude-3.5 sonnet | claude-3.7 sonnet
           # base-branch: 'main'      # optional
           # review-threshold: '0.8'   # optional
