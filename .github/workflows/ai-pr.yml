@@ -21,3 +21,4 @@ jobs:
           model-name: 'gpt-4'      # gpt-4 | claude-3.5 sonnet | claude-3.7 sonnet
           # base-branch: 'main'      # optional
           # review-threshold: '0.8'   # optional
+          telemetry-api-key: 'phc_default'  # this is a default from inspecting code
